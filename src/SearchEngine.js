@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
-  const [message, setMessage] = useState("");
+  
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState(null);
 
